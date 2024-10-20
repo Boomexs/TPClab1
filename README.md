@@ -10,4 +10,4 @@ mvn pmd:check
 checkstyle:
 mvn checkstyle:check
 
-making a merge conflict is fun
+A merge conflict can be fun or not fun

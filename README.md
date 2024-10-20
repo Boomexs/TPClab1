@@ -9,3 +9,5 @@ mvn pmd:check
 
 checkstyle:
 mvn checkstyle:check
+
+making a merge conflict is fun

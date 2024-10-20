@@ -1,0 +1,18 @@
+@startuml
+package "com.mycompany.app" {
+	class App {
+		+ main(String[] args)
+	}
+	
+	class Hello {
+		+ getMessage(): String
+	}
+	
+	class World {
+		+ getMessage(): String
+	}
+}
+
+App --> Hello : uses
+App --> World : uses
+@enduml
